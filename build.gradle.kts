@@ -25,7 +25,7 @@ dependencies {
   implementation("org.springframework.boot:spring-boot-starter-webclient")
   implementation("org.springframework.security:spring-security-access")
   implementation("org.springframework.boot:spring-boot-starter-validation")
-  implementation("io.opentelemetry.instrumentation:opentelemetry-instrumentation-annotations:2.30.0")
+  implementation("io.opentelemetry.instrumentation:opentelemetry-instrumentation-annotations:2.31.0")
   implementation("io.opentelemetry:opentelemetry-extension-kotlin:1.65.0")
 
   runtimeOnly("org.flywaydb:flyway-database-postgresql")
@@ -43,7 +43,7 @@ dependencies {
   testImplementation("com.pauldijou:jwt-core_2.11:5.0.0")
   testImplementation("org.awaitility:awaitility-kotlin:4.3.0")
   testImplementation("org.mockito:mockito-inline:5.2.0")
-  testImplementation("io.swagger.parser.v3:swagger-parser:2.1.46") {
+  testImplementation("io.swagger.parser.v3:swagger-parser:2.1.47") {
     exclude(group = "io.swagger.core.v3")
   }
   testImplementation("org.springframework.security:spring-security-test")
